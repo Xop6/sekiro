@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScoopCast</title>
+    <style>
+        /* Set up a colorful gradient background */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ff7e5f, #feb47b);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: white;
+        }
+
+        /* Container for the entire content */
+        .container {
+            max-width: 900px;
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Profile picture (circular image) */
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 20px auto;
+            display: block;
+            border: 4px solid white;
+        }
+
+        /* Banner */
+        .banner {
+            width: 100%;
+            max-height: 200px;
+            margin: 20px 0;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 4px solid white;
+        }
+
+        /* Style for headings */
+        h1 {
+            font-size: 2.5rem;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        /* Container for each video */
+        .video-wrapper {
+            margin: 20px 0;
+            background-color: rgba(255, 165, 0, 0.5);
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            position: relative;
+        }
+
+        /* Custom image for video frame */
+        .video-frame {
+            background-image: url('https://cdn.discordapp.com/attachments/1248207244231970818/1295289894259789875/20241014_130842.jpg?ex=670e1c38&is=670ccab8&hm=8f78a7b2d074a471704ba6f22b65a708bb839edeebe16584619793646213f4d2&'); /* Replace with your image */
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        video {
+            width: 100%;
+            max-height: 400px;
+            border-radius: 10px;
+            background: transparent;
+        }
+
+        /* GIF between videos */
+        .gif {
+            width: 100%;
+            max-height: 300px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 30px;
+            font-size: 1rem;
+            color: #fff;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            .profile-pic {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Profile picture in the top middle -->
+        <img src="https://yt3.googleusercontent.com/VrmYu0p5JYVmp-WhcgoqbSZnUL-X3xNwNDBQ7_FAMfjiFGC-J2DkdCuOkGTVinH8rg3d9QwNNuo=s1280-c-k-c0x00ffffff-no-rj" alt="Profile Picture" class="profile-pic">
+
+        <!-- Banner image -->
+        <img src="https://yt3.googleusercontent.com/0SGmKLFhw2QDQy8KdPUU1IY8Osx-jrCDrrXOVUpyvVG3KN0Ic-jDacaCnFUUsEmnCfvWs5QtnQ=w960-fcrop64=1,32b75a57cd48a5a8-k-c0xffffffff-no-nd-rj" alt="Banner" class="banner">
+
+        <!-- Heading of the Website -->
+        <h1>ScoopCast Members Only Videos</h1>
+        <p>MEMES REACTIONS!</p>
+
+        <!-- First Video -->
+        <div class="video-wrapper video-frame">
+            <h2>Hairfall</h2>
+            <video controls>
+                <source src="https://pixeldrain.com/api/file/vfjQJGvd?download" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- GIF between videos -->
+        <img src="https://cdn.discordapp.com/attachments/1248207244231970818/1295287577263214674/ezgif-6-169e89dc39.gif?ex=670e1a0f&is=670cc88f&hm=d778bb458ab01d430b2cf50befb095daa24e0fa2432012106dd1aa0007bb1def&" alt="Cool GIF" class="gif">
+
+        <!-- Second Video -->
+        <div class="video-wrapper video-frame">
+            <h2>Thanos</h2>
+            <video controls>
+                <source src="https://pixeldrain.com/api/file/JD1foG8Q?download" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- third Video -->
+        <div class="video-wrapper video-frame">
+            <h2>Thailandi</h2>
+            <video controls>
+                <source src="https://pixeldrain.com/api/file/9yx6XDMv?download" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>        
+
+        <!-- Fourth Video -->
+        <div class="video-wrapper video-frame">
+            <h2>Khalifa</h2>
+            <video controls>
+                <source src="https://pixeldrain.com/api/file/KHbj5GVV?download" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        
+        <!-- Fifth Video -->
+        <div class="video-wrapper video-frame">
+            <h2>Jooti</h2>
+            <video controls>
+                <source src="https://pixeldrain.com/api/file/FYhcQgjy?download" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- sixth Video -->
+        <div class="video-wrapper video-frame">
+            <h2>Maheep Ji</h2>
+            <video controls>
+                <source src="https://pixeldrain.com/api/file/6DN7ESyN?download" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- seventh Video -->
+        <div class="video-wrapper video-frame">
+            <h2>Ye Dosti</h2>
+            <video controls>
+                <source src="https://pixeldrain.com/api/file/VStrs7e9?download" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- Eighth Video -->
+        <div class="video-wrapper video-frame">
+            <h2>No Time for Jokes</h2>
+            <video controls>
+                <source src="https://pixeldrain.com/api/file/5EXTigYg?download" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- Nineth Video -->
+        <div class="video-wrapper video-frame">
+            <h2>JOKER</h2>
+            <video controls>
+                <source src="https://pixeldrain.com/api/file/Q2HQNvKw?download" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- 10th Video -->
+        <div class="video-wrapper video-frame">
+            <h2>O Maahi</h2>
+            <video controls>
+                <source src="https://pixeldrain.com/api/file/wqPmd7Bo?download" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- 11th Video -->
+        <div class="video-wrapper video-frame">
+            <h2>Physically</h2>
+            <video controls>
+                <source src="https://pixeldrain.com/api/file/sGLdXD5G?download" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- 12th Video -->
+        <div class="video-wrapper video-frame">
+            <h2>Nayak</h2>
+            <video controls>
+                <source src="https://pixeldrain.com/api/file/KxboBKo6?download" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- 13th Video -->
+        <div class="video-wrapper video-frame">
+            <h2>AA AA AA.....</h2>
+            <video controls>
+                <source src="https://pixeldrain.com/api/file/ZQLQE3Hu?download" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; All Rights Reserved By ScooCast Members.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
